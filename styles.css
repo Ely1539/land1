@@ -120,9 +120,11 @@
     cursor: pointer;
     text-decoration: none;
     margin-top: 10vh;
-    margin-right: 40vh;
-    position: absolute;
+    right: 20px; /* Cambiamos margin-right por right */
+    bottom: 20px; /* Ajustamos la posición vertical */
+    position: fixed; /* Fijamos la posición */
   }
+  
 
   .contact-heading {
     font-size: 24px;
