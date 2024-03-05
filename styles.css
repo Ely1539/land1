@@ -100,7 +100,6 @@
     order: -1;
     max-width: 100%; /* Ancho máximo de la imagen en dispositivos móviles */
     height: auto; /* Para mantener la proporción de aspecto */
-    background-color: tomato;
     width:60vh;
     margin-top:6vh;
   }
