@@ -135,8 +135,66 @@
   }
 }
 
+.containerA {
+  display: flex;
+  justify-content: center;
+  height: 68vh;
+  background-color: rgba(200, 200, 200, 0.5);; 
+  margin-bottom:2vh;
+}
 
+.form-container {
+  width: 800px; 
+  padding: 20px; 
+  margin-top:1vh; 
+  height: 55vh;
+  background-color: grey;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-container label {
+  display: block; 
+  width: 100%; 
+  margin-bottom: 5px;
+  color:black;
+  font-size:18px;
+  display:flex;
+  justify-content:center;
+}
 
+/* Estilos para los inputs */
+.form-container input,
+.form-container textarea {
+  height:3vh;
+  width: 100%; 
+}
+h1{
+  background-color:black;
+  color:white;
+  display:flex;
+  justify-content: center;
+}
+#consulta{
+ background-color: rgba(255, 99, 71, 0.5);
+  height:10vh;
+  margin:0vh
+}
 
+.form-container input,
+.form-container textarea {
+  width: 100%; 
+}
+
+@media (min-width: 768px) {
+  .form-container {
+    width: 50%; 
+  }
+}
+
+@media (min-width: 992px) {
+  .form-container {
+    width: 40%; 
+  }
+}
 
 
